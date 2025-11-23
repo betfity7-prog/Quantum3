@@ -1,0 +1,232 @@
+{
+  "users": {
+    "237695727815@s.whatsapp.net": {
+      "name": "Bot Owner",
+      "premium": true,
+      "limit": 9999,
+      "role": "owner"
+    },
+    "254746559167@s.whatsapp.net": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "159545301155928@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "45909593317630@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "4677873721427@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "120363421505078739@g.us": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "262341350420597@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "225065362821143@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "81325709123692@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "4024686391407@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "104364098203818@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "86543960162342@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "205270009532505@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "120363418229648144@newsletter": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "33539953274922@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "279375492731059@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "136129676312603@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "198239030607937@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    },
+    "211141280166018@lid": {
+      "name": "",
+      "premium": false,
+      "limit": 10,
+      "role": "user"
+    }
+  },
+  "groups": {
+    "120363421505078739@g.us": {
+      "antilink": false,
+      "antilink2": false,
+      "welcome": false,
+      "mute": false,
+      "antiforeign": false,
+      "allowedCodes": [],
+      "allowedUsers": {},
+      "antibot": false,
+      "antitag": false,
+      "antitagwarn": false,
+      "antitagadmin": false,
+      "antitagadminwarn": false,
+      "antigroupmention": false,
+      "antigroupmentionkick": false,
+      "antigroupmentionwarn": false,
+      "badword": false,
+      "badwordkick": false,
+      "antidemote": false,
+      "antipromote": false,
+      "announcements": false,
+      "antilinkgc": false,
+      "antilinkgckick": false
+    },
+    "120363361043152512@g.us": {
+      "antilink": false,
+      "antilink2": false,
+      "welcome": false,
+      "mute": false,
+      "antiforeign": false,
+      "allowedCodes": [],
+      "allowedUsers": {},
+      "antibot": false,
+      "antitag": false,
+      "antitagwarn": false,
+      "antitagadmin": false,
+      "antitagadminwarn": false,
+      "antigroupmention": false,
+      "antigroupmentionkick": false,
+      "antigroupmentionwarn": false,
+      "badword": false,
+      "badwordkick": false,
+      "antidemote": false,
+      "antipromote": false,
+      "announcements": false,
+      "antilinkgc": false,
+      "antilinkgckick": false
+    },
+    "120363424143346950@g.us": {
+      "antilink": false,
+      "antilink2": false,
+      "welcome": false,
+      "mute": false,
+      "antiforeign": false,
+      "allowedCodes": [],
+      "allowedUsers": {},
+      "antibot": false,
+      "antitag": false,
+      "antitagwarn": false,
+      "antitagadmin": false,
+      "antitagadminwarn": false,
+      "antigroupmention": false,
+      "antigroupmentionkick": false,
+      "antigroupmentionwarn": false,
+      "badword": false,
+      "badwordkick": false,
+      "antidemote": false,
+      "antipromote": false,
+      "announcements": false,
+      "antilinkgc": false,
+      "antilinkgckick": false
+    },
+    "120363403934252695@g.us": {
+      "antilink": false,
+      "antilink2": false,
+      "welcome": false,
+      "mute": false,
+      "antiforeign": false,
+      "allowedCodes": [],
+      "allowedUsers": {},
+      "antibot": false,
+      "antitag": false,
+      "antitagwarn": false,
+      "antitagadmin": false,
+      "antitagadminwarn": false,
+      "antigroupmention": false,
+      "antigroupmentionkick": false,
+      "antigroupmentionwarn": false,
+      "badword": false,
+      "badwordkick": false,
+      "antidemote": false,
+      "antipromote": false,
+      "announcements": false,
+      "antilinkgc": false,
+      "antilinkgckick": false
+    }
+  },
+  "settings": {
+    "welcome": false,
+    "developer": [],
+    "reseller": [],
+    "bljpm": [],
+    "respon": []
+  },
+  "chats": {
+    "237695727815@s.whatsapp.net": {},
+    "254746559167@s.whatsapp.net": {},
+    "120363421505078739@g.us": {},
+    "120363361043152512@g.us": {},
+    "120363424143346950@g.us": {},
+    "120363403934252695@g.us": {},
+    "120363418229648144@newsletter": {}
+  }
+}
