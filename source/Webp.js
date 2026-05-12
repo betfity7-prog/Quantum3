@@ -1,21 +1,21 @@
 /* 
 
 > Recode script give credits to›
-ARCHIETECH
+Quantum Tech
 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📝 | Created By ARCHIETECH
-📌 |Credits ARCHIETECH
-📱 |Chat wa:237695727815
-👑 |Github: ARCHIE-TECH
-✉️ |Email: archietech@gmail.com
+📝 | Created By Quantum Tech
+🖥️ | Base Ori By Quantum Tech
+📝 | Created By Quantum Tech
+📌 |Credits Quantum Tech
+📱 |Chat wa:+254703712475
+👑 |Github: Quantum-Tech
+✉️ |Email: quantumtech@gmail.com
    
    Developer: 
    - Asta (https://t.me/lopez629)
    
    Follow Channel Developer:
-   - https://whatsapp.com/channel/0029VaYpDLx4tRrrrXsOvZ3U
+   - https://whatsapp.com/channel/0029Vb7do3y4Y9ltXOhAoR2s
 
 
 */

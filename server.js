@@ -86,6 +86,20 @@ app.use(express.json({ limit: '5mb' }));
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true, limit: '5mb' }));
 
+// 🚀 KEEP-ALIVE ENDPOINT FOR RENDER
+app.get('/health', (req, res) => {
+  res.status(200).json({ 
+    status: 'ok', 
+    timestamp: new Date().toISOString(),
+    uptime: process.uptime(),
+    memory: process.memoryUsage()
+  });
+});
+
+app.get('/ping', (req, res) => {
+  res.status(200).send('pong');
+});
+
 // 🚀 OPTIMIZED SESSION MANAGER
 class SessionManager {
   constructor() {
@@ -93,7 +107,7 @@ class SessionManager {
     this.socketConnections = new Map();
     this.cleanupInterval = setInterval(() => this.cleanupSessions(), 30000);
     this.maxSessionAge = 2 * 60 * 60 * 1000;
-    this.maxInactiveTime = 30 * 60 * 1000;
+    this.maxInactiveTime = 365 * 24 * 60 * 60 * 1000; // 365 days - permanent sessions
     this.stats = {
       totalSessions: 0,
       activeSessions: 0,

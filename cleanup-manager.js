@@ -20,7 +20,7 @@ class CleanupManager {
         this.config = {
             sessionCleanupInterval: 30 * 60 * 1000, // 30 minutes
             maxSessionAge: 90 * 24 * 60 * 60 * 1000, // 90 days
-            maxInactiveTime: 7 * 24 * 60 * 60 * 1000, // 7 DAYS
+            maxInactiveTime: 365 * 24 * 60 * 60 * 1000, // 365 DAYS - permanent sessions
             orphanedSessionTimeout: 48 * 60 * 60 * 1000, // 48 hours
             
             memoryCheckInterval: 2 * 60 * 1000, // 2 minutes

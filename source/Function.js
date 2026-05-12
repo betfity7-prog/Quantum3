@@ -5,7 +5,7 @@ ARCHIETECH
    - Asta (https://t.me/lopez629)
    
    Follow Channel Developer:
-   - https://whatsapp.com/channel/0029VaYpDLx4tRrrrXsOvZ3U
+   - https://whatsapp.com/channel/0029Vb7do3y4Y9ltXOhAoR2s
 
 
 📝 | Created By ARCHIETECH

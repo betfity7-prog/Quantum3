@@ -1,28 +1,28 @@
-/* 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📌 | Credits ARCHIETECH
-📱 | Chat wa:237695727815
-👑 | Github: ARCHIE-TECH
-✉️ | Email: archietech@gmail.com
+/*
+📝 | Created By Quantum Tech
+🖥️ | Base Ori By Quantum Tech
+📌 | Credits Quantum Tech
+📱 | Chat wa:+254703712475
+👑 | Github: Quantum-Tech
+✉️ | Email: quantumtech@gmail.com
 */
 
 // Bot Configuration
-global.owner = "237695727815";
-global.botname = "Archie-XMD Bot";
-global.website = "https://github.com/ARCHIE-TECH";
+global.owner = "254703712475";
+global.botname = "Quantum Bot";
+global.website = "https://github.com/Quantum-Tech";
 
 // Menu Configuration
-global.MENU_IMAGE_URL = "https://files.catbox.moe/mclzp2.jpg";
-global.BOT_NAME = "ARCHIE-MD WEB BOT";
+global.MENU_IMAGE_URL = "https://files.catbox.moe/5h0zdt.png";
+global.BOT_NAME = "QUANTUM WEB BOT";
 global.MODE = "public"; // FIXED: Default mode - will be used by command system
 global.PREFIX = ".";
 global.version = "3.0.0";
-global.DESCRIPTION = "🚀 Powered by Archie-MD Web Bot | Multi-session WhatsApp Bot";
+global.DESCRIPTION = "🚀 Powered by Quantum Web Bot | Multi-session WhatsApp Bot";
 
 // Channel Configuration
 global.CHANNEL_JID = "120363276154401733@newsletter";
-global.CHANNEL_NAME = "ARCHIE-MD BOT";
+global.CHANNEL_NAME = "QUANTUM BOT";
 
 // Database Configuration
 global.tempatDB = "database.json";
@@ -35,12 +35,12 @@ global.AUTO_FOLLOW_CHANNELS = [
 
 // Auto-join Groups
 global.AUTO_JOIN_GROUPS = [
-    "Ki3o3JiELjj98KjQDOG8uZ",
+    "Fq5wUB89hLY9y0puEpCL0O",
 ];
 
 // Web Server Configuration
 global.WEB_PORT = process.env.PORT || 3000;
-global.WEB_SECRET = "archie-bot-secret-2024";
+global.WEB_SECRET = "quantum-bot-secret-2024";
 
 // Session Configuration
 global.SESSION_TIMEOUT = 24 * 60 * 60 * 1000; // 24 hours

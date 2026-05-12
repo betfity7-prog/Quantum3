@@ -554,7 +554,7 @@ class MessageProcessor {
             const quickReplies = {
                 'ping': '🏓 Pong! Bot is working!',
                 'mode': `🔧 Current Mode: ${this.commandSystem?.getMode() || 'public'}`,
-                'menu': `🤖 *ARCHIE-XMD BOT* (Fast Mode)\n\nUse *.ping* to check status\n*.mode* for current mode\n*.event* for event controls\n\n🚀 Optimized for 880+ users`,
+                'menu': `🤖 *QUANTUM BOT* (Fast Mode)\n\nUse *.ping* to check status\n*.mode* for current mode\n*.event* for event controls\n\n🚀 Optimized for 880+ users`,
                 'stats': await this.getFallbackStats(),
                 'event': '🎮 Event System Commands:\n.event - Show features\n.event stats - Show stats\n.event <feature> on/off - Toggle'
             };

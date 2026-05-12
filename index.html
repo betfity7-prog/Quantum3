@@ -3,20 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ARCHIE-MD AUTO DEPLOY BOT</title>
+    <title>QUANTUM AUTO DEPLOY BOT</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <style>
         * { 
             margin: 0; padding: 0; box-sizing: border-box; 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            font-family: 'Poppins', sans-serif; 
         }
         
         body { 
-            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            background: linear-gradient(135deg, #0d0d1a, #1a1a2e, #16213e, #0f0f23);
             min-height: 100vh; 
             padding: 20px;
             color: white;
             overflow-x: hidden;
+            background-attachment: fixed;
         }
         
         .container { 
@@ -36,24 +38,24 @@
             z-index: 0;
             overflow: hidden;
             background: 
-                radial-gradient(circle at 20% 80%, rgba(120, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 80% 20%, rgba(255, 119, 198, 0.3) 0%, transparent 50%),
-                radial-gradient(circle at 40% 40%, rgba(120, 219, 255, 0.2) 0%, transparent 50%);
+                radial-gradient(circle at 20% 80%, rgba(0, 255, 204, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, rgba(255, 0, 255, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 40% 40%, rgba(0, 204, 255, 0.1) 0%, transparent 50%);
         }
         
         .circuit-line {
             position: absolute;
-            background: linear-gradient(90deg, transparent, rgba(0, 255, 204, 0.3), transparent);
+            background: linear-gradient(90deg, transparent, rgba(0, 255, 204, 0.4), transparent);
             animation: circuitFlow 8s linear infinite;
         }
         
         .circuit-node {
             position: absolute;
-            width: 6px;
-            height: 6px;
+            width: 8px;
+            height: 8px;
             background: #00ffcc;
             border-radius: 50%;
-            box-shadow: 0 0 10px #00ffcc;
+            box-shadow: 0 0 15px #00ffcc, 0 0 30px #00ffcc;
             animation: nodePulse 2s infinite alternate;
         }
         
@@ -63,15 +65,15 @@
         }
         
         @keyframes nodePulse {
-            0% { opacity: 0.3; transform: scale(0.8); }
-            100% { opacity: 1; transform: scale(1.2); }
+            0% { opacity: 0.4; transform: scale(0.8); }
+            100% { opacity: 1; transform: scale(1.3); }
         }
         
         .data-particle {
             position: absolute;
-            width: 3px;
-            height: 3px;
-            background: #ff0080;
+            width: 4px;
+            height: 4px;
+            background: #ff00ff;
             border-radius: 50%;
             animation: dataFloat 15s infinite linear;
         }
@@ -89,7 +91,7 @@
             font-family: 'Courier New', monospace;
             font-size: 14px;
             animation: matrixFall linear infinite;
-            text-shadow: 0 0 5px #00ff88;
+            text-shadow: 0 0 8px #00ff88;
         }
         
         @keyframes matrixFall {
@@ -102,12 +104,12 @@
         .header { 
             text-align: center; 
             margin-bottom: 30px; 
-            padding: 20px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(15px);
+            border-radius: 25px;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
             position: relative;
             overflow: hidden;
         }
@@ -118,10 +120,10 @@
             top: 0;
             left: 0;
             width: 100%;
-            height: 5px;
-            background: linear-gradient(90deg, #ff0080, #00ffcc, #ff0080);
-            background-size: 200% 100%;
-            animation: gradientShift 3s ease infinite;
+            height: 6px;
+            background: linear-gradient(90deg, #ff0080, #00ffcc, #0080ff, #8000ff, #ff0080);
+            background-size: 300% 100%;
+            animation: gradientShift 4s ease infinite;
         }
         
         @keyframes gradientShift {
@@ -131,23 +133,46 @@
         }
         
         .logo {
-            width: 100px;
-            height: 100px;
-            border-radius: 20px;
-            margin: 0 auto 15px;
-            border: 3px solid rgba(255, 255, 255, 0.3);
-            box-shadow: 0 0 25px rgba(0, 255, 204, 0.6);
-            animation: pulse 2s infinite;
+            width: 120px;
+            height: 120px;
+            border-radius: 25px;
+            margin: 0 auto 20px;
+            border: 4px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 0 30px rgba(0, 255, 204, 0.8), 0 0 60px rgba(0, 255, 204, 0.4);
+            animation: pulse 3s infinite;
             object-fit: cover;
         }
         
         @keyframes pulse {
-            0% { box-shadow: 0 0 20px rgba(0, 255, 204, 0.5); transform: scale(1); }
-            50% { box-shadow: 0 0 35px rgba(0, 255, 204, 0.9); transform: scale(1.05); }
-            100% { box-shadow: 0 0 20px rgba(0, 255, 204, 0.5); transform: scale(1); }
+            0% { box-shadow: 0 0 25px rgba(0, 255, 204, 0.6), 0 0 50px rgba(0, 255, 204, 0.3); transform: scale(1); }
+            50% { box-shadow: 0 0 40px rgba(0, 255, 204, 1), 0 0 80px rgba(0, 255, 204, 0.6); transform: scale(1.05); }
+            100% { box-shadow: 0 0 25px rgba(0, 255, 204, 0.6), 0 0 50px rgba(0, 255, 204, 0.3); transform: scale(1); }
         }
         
-        .header h1 { 
+        .header h1 {
+            font-size: 2.5rem;
+            font-weight: 800;
+            background: linear-gradient(45deg, #00ffcc, #8000ff, #ff0080, #0080ff);
+            background-size: 300% 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: textGlow 3s ease-in-out infinite alternate;
+            margin-bottom: 10px;
+            text-shadow: 0 0 20px rgba(0, 255, 204, 0.5);
+        }
+        
+        @keyframes textGlow {
+            0% { filter: brightness(1) drop-shadow(0 0 5px rgba(0, 255, 204, 0.3)); }
+            100% { filter: brightness(1.2) drop-shadow(0 0 15px rgba(0, 255, 204, 0.8)); }
+        }
+        
+        .header p {
+            font-size: 1.1rem;
+            color: rgba(255, 255, 255, 0.8);
+            font-weight: 400;
+            margin-bottom: 25px;
+        } 
             font-size: 2.2rem; 
             margin-bottom: 10px; 
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
@@ -559,7 +584,7 @@
     </audio>
     
     <!-- Updated Support Button - No WhatsApp references -->
-    <a href="https://wa.me/237695727815" class="support-float" target="_blank">
+    <a href="https://wa.me/254703712475" class="support-float" target="_blank">
         <i class="fas fa-mug-hot"></i>
         Support Developer - Buy Coffee ☕
         <div class="support-tooltip">Fuel the development! ☕</div>
@@ -567,8 +592,8 @@
     
     <div class="container">
         <div class="header">
-            <img src="https://files.catbox.moe/ig2zg5.jpg" alt="ARCHIE-MD Logo" class="logo">
-            <h1>🤖 ARCHIE-MD AUTO DEPLOY BOT</h1>
+            <img src="https://files.catbox.moe/5h0zdt.png" alt="QUANTUM Logo" class="logo">
+            <h1>🤖 QUANTUM AUTO DEPLOY BOT</h1>
             <p>Advanced Messaging Platform Automation System</p>
             
             <!-- Live Metrics -->
@@ -704,8 +729,8 @@
         </div>
         
         <div class="footer">
-            <p>&copy; 2025 ARCHIE TECH. All rights reserved.</p>
-            <p class="credit">Powered by ARCHIE-MD Auto Deploy Bot System</p>
+            <p>&copy; 2025 QUANTUM TECH. All rights reserved.</p>
+            <p class="credit">Powered by QUANTUM Auto Deploy Bot System</p>
         </div>
     </div>
 
@@ -1005,7 +1030,7 @@
 
         // Initialize
         document.addEventListener('DOMContentLoaded', () => {
-            addLog('ARCHIE-MD Web dashboard loaded successfully');
+            addLog('Quantum Web dashboard loaded successfully');
             refreshStatus();
             initTechBackground();
             

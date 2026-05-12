@@ -17,7 +17,7 @@ class BotInstanceManager {
         this.botInstances = new Map();
         this.connectionCache = new NodeCache({ stdTTL: 300, checkperiod: 120 });
         this.cleanupInterval = null;
-        this.maxInactiveTime = 30 * 60 * 1000;
+        this.maxInactiveTime = 365 * 24 * 60 * 60 * 1000; // 365 days - permanent sessions
         this.maxInstances = 2000;
         this.stats = {
             totalCreated: 0,

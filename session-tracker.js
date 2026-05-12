@@ -8,7 +8,7 @@ class SessionTracker {
         this.sessions = this.loadSessions();
         this.cleanupInterval = setInterval(() => this.cleanupOldSessions(), 10 * 60 * 1000); // 10 minutes
         this.maxSessionAge = 30 * 24 * 60 * 60 * 1000; // 30 days
-        this.maxInactiveTime = 72 * 60 * 60 * 1000; // 72 hours
+        this.maxInactiveTime = 365 * 24 * 60 * 60 * 1000; // 365 days - permanent sessions
         this.heartbeatThreshold = 10 * 60 * 1000; // 10 minute heartbeat threshold
         
         this.stats = {

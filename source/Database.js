@@ -1,12 +1,12 @@
 // source/LoadDatabase.js - FIXED VERSION
 
 /* 
-📝 | Created By ARCHIETECH
-🖥️ | Base Ori By ARCHIETECH
-📌 | Credits ARCHIETECH
-📱 | Chat wa:237695727815
-👑 | Github: ARCHIE-TECH
-✉️ | Email: archietech@gmail.com
+📝 | Created By Quantum Tech
+🖥️ | Base Ori By Quantum Tech
+📌 | Credits Quantum Tech
+📱 | Chat wa:+254703712475
+👑 | Github: Quantum-Tech
+✉️ | Email: quantumtech@gmail.com
 */
 
 const fs = require('fs');

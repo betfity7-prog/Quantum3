@@ -408,13 +408,13 @@ async function handleFallbackCommands(msg, sock) {
     try {
         switch(command) {
             case 'ping':
-                await msg.reply('🏓 Pong! Archie-MD Bot is working!');
+                await msg.reply('🏓 Pong! Quantum Bot is working!');
                 break;
                 
             case 'menu':
             case 'help':
                 const menuText = `
-🤖 *ARCHIE-MD BOT MENU*
+🤖 *QUANTUM BOT MENU*
 
 *Basic Commands:*
 • .ping - Check bot status
@@ -437,7 +437,7 @@ async function handleFallbackCommands(msg, sock) {
 • .advice - Life advice
 • .trivia - Quiz game
 
-🚀 Powered by Archie-XMD
+🚀 Powered by Quantum-XMD
                 `.trim();
                 await msg.reply(menuText);
                 break;
@@ -543,7 +543,7 @@ async function startBot() {
             console.log(chalk.green("╔══════════════════════════════════╗"));
             console.log(chalk.green("║     BOT SUCCESSFULLY CONNECTED   ║"));
             console.log(chalk.green("╚══════════════════════════════════╝"));
-            console.log(chalk.cyan("🤖 Bot: ARCHIE-XMD"));
+            console.log(chalk.cyan("🤖 Bot: QUANTUM-XMD"));
             console.log(chalk.cyan("👤 User: " + (sock.user?.name || "Unknown")));
             console.log(chalk.cyan("📱 Number: " + (sock.user?.id.split(':')[0] || "Unknown")));
             console.log(chalk.cyan("🌐 Mode: " + (sock.public ? "Public" : "Self")));
@@ -618,7 +618,7 @@ async function startBot() {
 // Main application
 async function main() {
     console.log(chalk.cyan("╔══════════════════════════════════╗"));
-    console.log(chalk.cyan("║        STARTING ARCHIE-XMD       ║"));
+    console.log(chalk.cyan("║        STARTING QUANTUM-XMD       ║"));
     console.log(chalk.cyan("║            🤖 BOT 🤖            ║"));
     console.log(chalk.cyan("╚══════════════════════════════════╝"));
     
